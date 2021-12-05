@@ -1,12 +1,60 @@
 :root{
- 
+ --white: #FAFAFD;
+ --purple: #3730A3;
+ --dark-green:#065F46;
+ --yellow:#FCD34D;
+ --black:#040404;
+ --grey:#D1D5DB;
+}
+body {
+    font-family: lato,sans-serif;
+    background-color:var(--black) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:bottom;
+}
+h1 {
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    font-size: 45px;
+    text-align: center;
+    background-color:var(--purple);
+    color:var(--white);
+    padding: 1.5rem 0rem;
+    margin: auto;
+}
+textarea {
+    background-color:var(--grey) ;
+    border: 1px solid black;
+    text-align: center;
+    width: 40vw;
+    height: 10vh;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: block;
+
+}
+
+#btn-translate {
+    display: block;
+    background-color: var(--dark-green);
+    color:var(--yellow);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 15px;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-top: 1rem;
 }
 #output{
+    background-color: var(--grey);
     border: 1px solid black;
     display:block;
     margin: auto;
     padding: 2rem 0rem;
     height: 10vh;
     width: 40vw;
+    text-align: center;
 
 }
