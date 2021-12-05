@@ -1,0 +1,12 @@
+:root{
+ 
+}
+#output{
+    border: 1px solid black;
+    display:block;
+    margin: auto;
+    padding: 2rem 0rem;
+    height: 10vh;
+    width: 40vw;
+
+}
